@@ -33,7 +33,7 @@ public class _637AverageOfLevelsBinaryTree {
         doRecCount(sum, node.left, i + 1);
         doRecCount(sum, node.right, i + 1);
     }
-    
+
     static class TreeNode {
         int val;
         TreeNode left;
